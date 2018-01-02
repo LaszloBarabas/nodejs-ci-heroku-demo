@@ -6,6 +6,14 @@
   },
   "env": {
   },
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "npm run lint", 
+        "test": "npm test"
+      }
+    }
+  },
   "formation": {
     "web": {
       "quantity": 1
